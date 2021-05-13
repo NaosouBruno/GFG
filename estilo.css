@@ -2,12 +2,8 @@
 * 
 * @author Bruno Silva 
 * @version 0.1
-* Imagens .svg costumam se repetir, por isso usar o no-repeat
-* Background-size define o tamanho de uma imagem dentro de um background
 */
-
 /* ========================= layout ======================== */
-
 /* -- Barra de navegação -- */
 
 html,body, .capa{
@@ -21,15 +17,7 @@ body{
 	font-family: Helvetica, Arial, sans-serif;
 }
 
-.img-logo{
-	height: 40px;
-	width: 132px;
-	display: block;
-	background: url(imagens/spotify.svg) no-repeat; 
-	background-size: contain;
-	color: transparent;
 
-}
 
 nav.navbar-transparente{
 	padding: 15px 0px;
@@ -153,4 +141,8 @@ h3{
 
 #servicos h2,h3{
 	color: #7c25f8
+}
+
+#cadastro-topo{
+	font-size: 10px;
 }
