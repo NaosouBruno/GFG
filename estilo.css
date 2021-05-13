@@ -1,0 +1,156 @@
+/*
+* 
+* @author Bruno Silva 
+* @version 0.1
+* Imagens .svg costumam se repetir, por isso usar o no-repeat
+* Background-size define o tamanho de uma imagem dentro de um background
+*/
+
+/* ========================= layout ======================== */
+
+/* -- Barra de navegação -- */
+
+html,body, .capa{
+	height: 100%;
+	
+}
+
+body{
+	background: black;
+	background-attachment: fixed;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.img-logo{
+	height: 40px;
+	width: 132px;
+	display: block;
+	background: url(imagens/spotify.svg) no-repeat; 
+	background-size: contain;
+	color: transparent;
+
+}
+
+nav.navbar-transparente{
+	padding: 15px 0px;
+	background: rgba(0,0,0,0.6);
+	border: none;
+}
+
+.navbar-brand{
+	padding: 5px 15px;
+}
+
+.divisor{
+	width: 1px;
+	height: 16px;
+	background: white;
+	margin: 16px 10px;
+}
+
+
+.navbar-inverse .navbar-nav>li>a{
+	color: white;
+	font-family: Georgia, serif;
+	font-size: 25px
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+	color: #9bf0e1;
+}
+
+.lado{
+	padding: 0px 200px;
+	
+}
+/* ========================= Imagem da Capa ======================== */
+
+.capa{
+	display: table;
+	width: 100%;
+}
+
+.capa h1{
+	font-family: Georgia, serif;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 75px;
+    letter-spacing: 3px;
+    word-spacing: -5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+.texto-capa{
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+/* ========================= Botões ======================== */
+
+.btn-custom{
+	color: white;
+	background-color: transparent;
+	font-family: Georgia, serif;
+	font-size: 25px
+	
+}
+.btn-roxo{
+	background: #7c25f8
+}
+
+.btn-roxo:hover{
+	background-color: #6207e3;
+	color: white;
+}
+
+.btn-branco{
+	border: 2px solid white; 
+}
+
+.btn-branco:hover{
+	background-color: white;
+	color: black;
+
+}
+
+/* ========================= Serviços ======================== */
+
+#servicos{
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.albuns{
+	padding: 10px 0px 10px 0px;
+}
+
+
+/* ========================= Tipografia ======================== */
+
+h1{
+	font-size: 100px;
+	font-weight: 900px;
+	letter-spacing: -2px;
+	margin-bottom: 50px;
+}
+
+h2{
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+h3{
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+#servicos h2,h3{
+	color: #7c25f8
+}
